@@ -1,0 +1,7 @@
+{
+  "name": "Smart Flock Manager 3.0",
+  "description": "A comprehensive AI-powered farm management system for sheep and goats, featuring herd tracking, health monitoring, financial analysis, and AI-driven insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
