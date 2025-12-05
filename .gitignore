@@ -7,10 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
 dist
 dist-ssr
 *.local
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +30,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python venv
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+*.pem
+
+# Build output
+/dist
+/build
+
